@@ -1,4 +1,3 @@
-import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import { Space_Grotesk, Inter } from 'next/font/google'
 import { siteConfig } from '@/lib/site-data'
@@ -19,7 +18,6 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: `${siteConfig.name} — ${siteConfig.role}`,
   description: siteConfig.tagline,
-  generator: 'v0.app',
 }
 
 export const viewport: Viewport = {
@@ -36,7 +34,6 @@ export default function RootLayout({
     <html lang="en" className={`dark bg-background ${spaceGrotesk.variable} ${inter.variable}`}>
       <body className="font-sans antialiased">
         {children}
-        {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>
   )
