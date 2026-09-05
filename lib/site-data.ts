@@ -328,7 +328,7 @@ const allProjects: Project[] = [
     slug: 'hotel-inverse',
     title: 'Hotel Inverse',
     category: 'Games',
-    year: '4',
+    year: '2024',
     role: 'Unity Developer',
     engine: 'Unity',
     status: 'Released',
