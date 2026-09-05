@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Screenshot coming soon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#231d17" />
+      <stop offset="100%" stop-color="#15110d" />
+    </linearGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)" />
+  <rect width="1600" height="900" fill="url(#grid)" />
+
+  <g transform="translate(800 415)" fill="none" stroke="#e08a3c" stroke-opacity="0.55" stroke-width="4">
+    <rect x="-46" y="-36" width="92" height="72" rx="8" />
+    <circle cx="-20" cy="-12" r="9" />
+    <path d="M-46 20l30-26 22 20 18-14 22 20" stroke-linejoin="round" />
+  </g>
+
+  <text x="800" y="530" text-anchor="middle" fill="#b8ab9d"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+        font-size="26" letter-spacing="4">SCREENSHOT COMING SOON</text>
+</svg>
