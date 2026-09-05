@@ -78,7 +78,7 @@ export const countedCategories: Category[] = ['Games', 'Applications', 'Assets']
 //  To switch a category back on, delete it from this list (an empty list `[]`
 //  shows everything).
 // ---------------------------------------------------------------------------
-export const hiddenCategories: Category[] = ['Assets']
+export const hiddenCategories: Category[] = ['Assets', '3D Arts']
 
 export type Project = {
   slug: string
