@@ -189,7 +189,7 @@ export const experience: ExperienceEntry[] = [
       'Dual programming and 3D art role across 5 arcade titles, while studying Computer Engineering.',
     highlights: [
       'Programmed core gameplay loops for 5 high-energy arcade titles, prioritizing responsive player interaction and game feel.',
-      'Modeled, UV-mapped and textured 80+ game-ready characters and environment assets in Blender, Maya and Substance Painter.',
+      'Modeled, UV-mapped and textured game-ready characters and environment assets in Blender, Maya and Substance Painter.',
       'Owned the animation and VFX integration pipeline, keeping complex rigs and particle systems performant in-engine.',
     ],
   },
